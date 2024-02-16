@@ -1,0 +1,100 @@
+// Définition des variables de couleur
+$primary-color: #002A4C;
+$secondary-color: #95C0EE;
+$tertiary-color: #58162C;
+$accent-color: #CB6788;
+$dark-color: #262526;
+$light-color: #F2F2F2;
+
+//définition variables font
+$font-montserrat:  'Montserrat', sans-serif;
+
+// Définition des variables de taille de police
+$font-size-small: 1rem;
+$font-size-medium: 1.2rem;
+$font-size-large: 1.4rem;
+$font-big: 2rem;
+
+// Définition des variables de niveau de gras
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+//mixin utilitaire
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin mobile-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin desktop-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+// Utilisation des variables
+body {
+    background-color: $light-color;
+    color: $dark-color;
+    font-family: $font-montserrat;
+    font-size: $font-size-medium;
+
+}
+h1{
+    font-size: $font-size-large; 
+}
+
+h2{
+    font-size:$font-big;
+    font-weight: $font-weight-bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-montserrat;
+}
+.bold-text {
+    font-weight: $font-weight-bold; // Texte en gras
+}
+
+.navbar{
+    background-color: $primary-color;
+}
+
+footer {
+    background-color: $secondary-color;
+}
+
+.btn-primary {
+    background-color: $accent-color;
+    color: $light-color;
+}
+
+.btn-secondary {
+    background-color: $tertiary-color;
+    color: $light-color;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+

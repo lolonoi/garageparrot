@@ -1,0 +1,50 @@
+body {
+  background-color: #F2F2F2;
+  color: #262526;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #002A4C;
+}
+
+footer {
+  background-color: #95C0EE;
+}
+
+.btn-primary {
+  background-color: #CB6788;
+  color: #F2F2F2;
+}
+
+.btn-secondary {
+  background-color: #58162C;
+  color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=index.css.map */
